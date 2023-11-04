@@ -106,7 +106,7 @@ require('lazy').setup({
   },
 
   {
-    -- Theme inspired by Atom
+    -- Theme inspired by Atompltyle
     'navarasu/onedark.nvim',
     priority = 1000,
     config = function()
@@ -171,7 +171,7 @@ require('lazy').setup({
 
 -- Theme
 require('onedark').setup {
-  style = 'dark',
+  style = 'warmer',
 }
 require('onedark').load()
 
