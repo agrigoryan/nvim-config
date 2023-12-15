@@ -1,6 +1,6 @@
 ### neovim configuration
 
-- using lazyvim
+- using lazy
 - minimal plugins
-- lsps, telescope, treesitter, ...
+- lsps, telescope, treesitter
 
