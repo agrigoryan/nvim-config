@@ -1,6 +1,10 @@
 -- Set <space> as the leader key
 vim.g.mapleader = ' '
 
+-- Disable netrw
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
+
 -- Make line numbers default
 vim.wo.number = true
 
