@@ -2,19 +2,19 @@ return {
   "folke/trouble.nvim",
   keys = {
     {
-      "<leader>tt",
+      "<leader>dt",
       function()
         require("trouble").toggle()
       end,
     },
     {
-      "<leader>tn",
+      "<leader>dn",
       function()
         require("trouble").next({jump=true, skip_groups=true})
       end,
     },
     {
-      "<leader>tp",
+      "<leader>dp",
       function()
         require("trouble").previous({jump=true, skip_groups=true})
       end,
