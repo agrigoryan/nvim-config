@@ -1,5 +1,5 @@
 -- Set <space> as the leader key
-vim.g.mapleader = ' '
+vim.g.mapleader = " "
 
 -- Disable netrw
 vim.g.loaded_netrw = 1
@@ -14,10 +14,10 @@ local opt = vim.opt
 opt.hlsearch = false
 
 -- Enable mouse mode
-opt.mouse = 'a'
+opt.mouse = "a"
 
 -- Sync clipboard between OS and Neovim.
-opt.clipboard = 'unnamedplus'
+opt.clipboard = "unnamedplus"
 
 -- Enable break indent
 opt.breakindent = true

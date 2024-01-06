@@ -1,21 +1,21 @@
 return {
-  'nvim-neo-tree/neo-tree.nvim',
+  "nvim-neo-tree/neo-tree.nvim",
   branch = "v3.x",
   dependencies = {
-    'nvim-lua/plenary.nvim',
-    'nvim-tree/nvim-web-devicons',
-    'MunifTanjim/nui.nvim',
+    "nvim-lua/plenary.nvim",
+    "nvim-tree/nvim-web-devicons",
+    "MunifTanjim/nui.nvim",
   },
   keys = {
     {
-      '<leader>e',
+      "<leader>e",
       function()
-        require('neo-tree.command').execute({toggle=true, dir=vim.loop.cwd()})
+        require("neo-tree.command").execute({toggle=true, dir=vim.loop.cwd()})
       end,
-      desc = 'Toggle NeoTree'
+      desc = "Toggle NeoTree"
     }
   },
   config = function ()
-    require('neo-tree').setup({})
+    require("neo-tree").setup({})
   end
 }
